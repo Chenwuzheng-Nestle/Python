@@ -1,4 +1,4 @@
-###1 - 内容编码
+### 1 - 内容编码
 
 - python解释器在加载 .py 文件中的代码时，会对内容进行编码（默认ascill）
 
@@ -35,13 +35,13 @@ python3中会自动转换utf-8  gbk unicode，并且移除了unicode类型
 
 --- 
 
-###2 - 注释
+### 2 - 注释
 - 当行注视：# 被注释内容
 - 多行注视：""" 被注释内容 """
 
 ---
 
-###3 - 执行脚本传入参数
+### 3 - 执行脚本传入参数
 - Python有大量的模块，从而使得开发Python程序非常简洁。类库有包括三中：
  1. Python内部提供的模块
  2. 业内开源的模块
@@ -59,16 +59,16 @@ print sys.argv
 
 ---
 
-###4 - pyc 文件
+### 4 - pyc 文件
 - 执行Python代码时，如果导入了其他的 .py 文件，那么，执行过程中会自动生成一个与其同名的 .pyc 文件，该文件就是Python解释器编译之后产生的字节码。
 - ps：代码经过编译可以产生字节码；字节码通过反编译也可以得到代码。
 
 ---
 
-###5 - 变量
+### 5 - 变量
 - 变量的作用：昵称，其代指内存里某个地址中保存的内容
 
-#####5.1 - 声明变量
+##### 5.1 - 声明变量
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -77,16 +77,16 @@ print sys.argv
 name = "chenwuzheng"
 ```
 
-#####5.2 - 变量定义的规则：
+##### 5.2 - 变量定义的规则：
 1. 变量名只能是 字母、数字或下划线的任意组合
 2. 变量名的第一个字符不能是数字
 
-#####5.3 - 以下关键字不能声明为变量名:
+##### 5.3 - 以下关键字不能声明为变量名:
 ```python
 ['and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'exec', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'not', 'or', 'pass', 'print', 'raise', 'return', 'try', 'while', 'with', 'yield']
 ```
 
-#####5.4 - 变量的赋值
+##### 5.4 - 变量的赋值
 ```python
 #!/usr/bin/dev python
 # -*- coding:utf-8 -*-
@@ -106,7 +106,7 @@ name2 = name1
 
 ---
 
-###6 - 输入
+### 6 - 输入
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -118,7 +118,7 @@ name = raw_input("请输入用户名：")
 print name
 ```
 
-######输入密码时，如果想要不可见，需要利用getpass 模块中的 getpass方法，即：
+###### 输入密码时，如果想要不可见，需要利用getpass 模块中的 getpass方法，即：
 
 ```python
 #!/usr/bin/env python
@@ -135,7 +135,7 @@ print pwd
 
 ---
 
-###7 - 基本数据类型
+### 7 - 基本数据类型
 - 数字：
  - 123
 
@@ -148,7 +148,7 @@ print pwd
  - True
  - Falus
 
-###8 - if/else
+### 8 - if/else
 ```python
 if 条件:
     内容
@@ -196,7 +196,7 @@ else:
     print("输入错误")
 ```
 
-###9 - while循环
+### 9 - while循环
 ```python
 #如果条件成立 那么就一直执行代码块中的代码
 while 条件:	
@@ -258,7 +258,7 @@ while True:
 控制台会一直输出123
 ```
  
->输出1，2，3，4，5，6，8，9，10
+> 输出1，2，3，4，5，6，8，9，10
 
 ```python
 #!/usr/bin/dev python
@@ -282,7 +282,7 @@ print("end")
 ```
 
 
->输出1-100的和
+> 输出1-100的和
 
 ```python
 #!/user/bin/dev python
@@ -302,7 +302,7 @@ while True:
 print(sum)
 ```
 
->用户登录，三次重试机会
+> 用户登录，三次重试机会
 
 ```python
 #!/usr/bin/dev python

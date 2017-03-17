@@ -1,4 +1,4 @@
-#Linux命令
+# Linux命令
 
 ```python
 pwd: 查看当前所在目录
